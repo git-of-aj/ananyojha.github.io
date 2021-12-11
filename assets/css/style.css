@@ -7,7 +7,6 @@ body {
     transition: ease-in 0.5s transform background color;
     border-radius: 12px;
     padding: 25px;
-    opacity: 0.2;
 }    
 
 #button:hover {
