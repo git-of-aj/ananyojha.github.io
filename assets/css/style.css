@@ -3,14 +3,14 @@ body {
   color: #272829;
 }
 
-#button {
+button {
     transition: ease-in 1s;
     border-radius: 12px;
     padding: 25px;
     margin: 0 auto;
 }    
 
-#button:hover {
+button:hover {
   transform: scale(1.2, 1.2);
   cursor: grab;
 }  
