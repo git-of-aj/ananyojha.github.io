@@ -3,14 +3,26 @@ body {
   color: #272829;
 }
 
-button {
-  border-radius: 12px;
-  padding: 5px;
-  
-} 
+#button {
+    position: absolute;
+    bottom: 72px; left: 72px;
+    width: 300px;
+    height: 100px;
+}    
 
-.button-bg {
-  filter: blur(8px); 
+#button-bg {
+    position: absolute;    /*matches #content position*/
+    bottom: 72px; left: 72px;    /*matches #content position*/
+    width: 300px;    /*matches #content width*/
+    height: 100px;    /*matches #content height*/
+    -webkit-filter: blur(10px);
+    filter: blur(10px);
+    z-index: -1;
+    border-radius: 12px;
+    padding: 5px;
+}
+
+
 }
 
 a {
