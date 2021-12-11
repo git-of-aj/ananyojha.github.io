@@ -3,18 +3,16 @@ body {
   color: #272829;
 }
 
-button {
+#button {
     transition: ease-in 1s;
     border-radius: 12px;
     padding: 25px;
 }    
 
-button:hover {
-  transform: scale(1.2, 1.2);
+#button:hover {
+  transform: sca##le(1.2, 1.2);
   cursor: grab;
 }  
-
-}
 
 a {
   color: #149ddd;
