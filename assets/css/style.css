@@ -8,6 +8,13 @@ a {
   text-decoration: none;
 }
 
+#hero, #facts, #resume, #skills, #contact #testimonials, {
+  border-radius: 10px;
+  margin: 10%;
+  padding: 2%;
+  box-shadow: 20px 20px 10px grey;
+}
+
 a:hover {
   color: #37b3ed;
   text-decoration: none;
