@@ -4,10 +4,6 @@ body {
 }
 
 #button {
-    position: absolute;
-    bottom: 72px; left: 72px;
-    width: 300px;
-    height: 100px;
     transition: ease-in 1s;
     border-radius: 12px;
     padding: 25px;
