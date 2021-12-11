@@ -19,7 +19,9 @@ body {
     filter: blur(10px);
     z-index: -1;
     border-radius: 12px;
-    padding: 5px;
+    padding: 25px;
+    margin: 0 auto;
+    justify
 }
 
 
