@@ -4,11 +4,9 @@ body {
 }
 
 button {
-    display: block;
     transition: ease-in 1s;
     border-radius: 12px;
     padding: 25px;
-    margin: 0;
 }    
 
 button:hover {
