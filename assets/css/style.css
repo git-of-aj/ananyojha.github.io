@@ -7,11 +7,15 @@ body {
     transition: ease-in 1s;
     border-radius: 12px;
     padding: 25px;
+    opacity: 0.2;
 }    
 
 #button:hover {
-  transform: sca##le(1.2, 1.2);
+  transform: scale(1.2, 1.2);
   cursor: grab;
+  background: black;
+  color: white;
+  
 }  
 
 a {
