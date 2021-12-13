@@ -10,7 +10,7 @@ body {
 }    
 
 #button:hover {
-  transform: scale(1.2, 1.2);
+  transform: scale(1.09, 1.09);
   cursor: grab;
   background: black;
   color: white;
