@@ -25,11 +25,6 @@ a {
   text-decoration: none;
 }
 
-#hero p {
-   text-align: center !important;
-   margin-left: auto !important;
-   margin-right: auto !important;
-}
 
 a:hover {
   color: #37b3ed;
@@ -256,7 +251,9 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   line-height: 56px;
   color: #fff;
-  text-align: left;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #hero p {
@@ -265,6 +262,8 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 26px;
   font-family: "Poppins", sans-serif;
   text-align: center;
+  margin-left: auto 
+  margin-right: auto;
 }
 
 #hero p span {
