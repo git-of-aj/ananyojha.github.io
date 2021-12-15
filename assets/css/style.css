@@ -3,7 +3,7 @@ body {
   color: #272829;
 }
 
-#button {
+#btn {
     transition: ease-in 0.5s transform background color;
     border-radius: 12px;
     padding: 15px;
@@ -16,7 +16,7 @@ body {
     
 }    
 
-#button:hover {
+#btn:hover {
   transform: scale(1.09, 1.09);
   cursor: grab;
   background: black;
