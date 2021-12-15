@@ -13,6 +13,10 @@ body {
     margin-right: 20px !important;
     background: white;
     color: black;
+    text-align: center;
+    display:inline-block;
+    text-decoration: none !important;
+    margin:0 auto;
     
 }    
 
