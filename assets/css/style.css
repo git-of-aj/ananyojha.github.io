@@ -437,7 +437,7 @@ section {
   font-variant: small-caps;
 }
 
-skl-list {
+#skl-list {
   display: block;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
