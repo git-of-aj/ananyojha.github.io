@@ -11,6 +11,8 @@ body {
     border-radius: 10px;
     margin-left: 20px !important;
     margin-right: 20px !important;
+    background: white;
+    color: black;
     
 }    
 
@@ -426,13 +428,45 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap');
+
+#skl ul li {
+  font-weight: 700;
+  font-variant: small-caps;
+}
+
+skl-list {
+  display: block;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#skills h3 {
+  font-weight: 900;
+  margin-bottom: 12px;
+  padding-bottom: 12px;
+  font-size: smaller;
+}
+
+#skills h3::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #112833;
+  bottom: 0;
+  left: 0;
+}
+
 .skills .progress {
   height: 60px;
   display: block;
   background: none;
   border-radius: 0;
+  
 }
 
 .skills .progress .skill {
