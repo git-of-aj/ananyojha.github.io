@@ -434,6 +434,11 @@ section {
 
 #skl ul li {
   font-weight: 700;
+  
+}
+
+#skl ul {
+ margin-bottom: 50px;
 }
 
 #skl-list {
@@ -448,6 +453,7 @@ section {
   padding-bottom: 12px;
   font-size: 22px;
   color: #2e63ad;
+  
 }
 
 #skills h3::after {
