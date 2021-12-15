@@ -447,7 +447,7 @@ section {
   font-weight: 900;
   margin-bottom: 12px;
   padding-bottom: 12px;
-  font-size: smaller;
+  font-size: large;
 }
 
 #skills h3::after {
