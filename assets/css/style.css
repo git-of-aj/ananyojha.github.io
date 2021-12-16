@@ -387,6 +387,17 @@ section {
   padding-bottom: 30px;
 }
 
+#medium {
+  border-radius: 12px;
+  margin: 0 auto;
+  display: block;
+  transition: ease-in-out 0.5s;
+}
+
+#medium:hover {
+  transform: scale3d(0.9, 0.9, 0.5)
+}
+
 .facts .count-box {
   padding: 30px;
   width: 100%;
