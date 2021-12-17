@@ -3,6 +3,31 @@ body {
   color: #272829;
 }
 
+@import url("https://fonts.googleapis.com/css?family=Exo:400,700");
+        
+        * {
+          margin: 0px;
+          padding: 0px;
+        }
+        
+        body {
+          font-family: "Exo", sans-serif;
+          /* overflow-x:hidden;
+          background: rgba(31, 183, 243, 0.979); */
+        }
+        
+        .context {
+          width: 100%;
+          position: absolute;
+          /* top: 50vh; */
+        }
+        
+        .context h1 {
+          text-align: center;
+          color: #fff;
+          font-size: 50px;
+        }
+        
 .area {
           background: rgb(203, 244, 252);
           background: -webkit-linear-gradient(to left, #8589e5, #3b42c5);
