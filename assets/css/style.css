@@ -179,13 +179,13 @@ body {
         }
         
         .flip-box-front {
-          background-color: #23aad2;
+          background-color: linear-gradient(red, orange);
           color: black;
           border-radius: 5%;
         }
         
         .flip-box-back {
-          background-color: #f14668;
+          background: linear-gradient(blue, violet);
           color: white;
           transform: rotateY(180deg);
           border-radius: 5%;
