@@ -3,6 +3,50 @@ body {
   color: #272829;
 }
 
+.flip-box {
+          background-color: transparent;
+          width: 400px;
+          height: 300px;
+          border: 1px solid #f1f1f1;
+          perspective: 1000px;
+          border-radius: 5%;
+        }
+        
+        .flip-box-inner {
+          position: relative;
+          width: 100%;
+          height: 100%;
+          text-align: center;
+          transition: transform 0.8s;
+          transform-style: preserve-3d;
+        }
+        
+        .flip-box:hover .flip-box-inner {
+          transform: rotateY(180deg);
+        }
+        
+        .flip-box-front,
+        .flip-box-back {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+        }
+        
+        .flip-box-front {
+          background-color: #23aad2;
+          color: black;
+          border-radius: 5%;
+        }
+        
+        .flip-box-back {
+          background-color: #f14668;
+          color: white;
+          transform: rotateY(180deg);
+          border-radius: 5%;
+        }
+
 #hero a {
     transition: ease-in 0.5s transform background color;
     border-radius: 12px;
