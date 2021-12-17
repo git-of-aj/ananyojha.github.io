@@ -179,7 +179,7 @@ body {
         }
         
         .flip-box-front {
-          background-color: linear-gradient(red, orange);
+          background: linear-gradient(red, orange);
           color: black;
           border-radius: 5%;
         }
