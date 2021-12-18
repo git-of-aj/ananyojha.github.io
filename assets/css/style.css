@@ -3,7 +3,7 @@ body {
   color: #272829;
 }
 
-@import url("https://fonts.googleapis.com/css?family=Exo:400,700");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&family=Quicksand:wght@700&display=swap');
         
         * {
           margin: 0px;
@@ -27,7 +27,11 @@ body {
           color: #fff;
           font-size: 50px;
         }
-        
+
+div p {
+ font-family: 'Quicksand', sans-serif 
+}
+
 .area {
           background: rgb(203, 244, 252);
           background: -webkit-linear-gradient(to left, #8589e5, #3b42c5);
