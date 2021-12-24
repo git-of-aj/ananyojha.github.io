@@ -84,8 +84,8 @@ div p {
     border-radius: 10px;
     margin-left: 20px !important;
     margin-right: 20px !important;
-    background: white;
-    color: black;
+    background: linear-gradient(45deg, #ff1200, #0066ff);
+    color: white;
     text-align: center;
     display:block;
     text-decoration: none !important;
@@ -96,7 +96,7 @@ div p {
 #hero a:hover {
   transform: scale(1.09, 1.09);
   cursor: grab;
-  background: black;
+  background: linear-gradient(45deg, #0066ff, #ff1200);
   color: white;
   
 }  
