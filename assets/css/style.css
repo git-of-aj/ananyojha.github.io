@@ -975,6 +975,20 @@ section {
   padding-bottom: 130px;
 }
 
+#contact .col {
+  transition: ease-in-out 0.25s;
+}
+
+@media only screen and (min-width: 768px) {
+  #contact .col {
+    padding-left: 40px;
+  }
+}
+
+#contact .col:hover, #contact .col:active {
+  transform: scale3d(1.2, 1.2, 1.5);
+}
+
 .contact .info {
   padding: 30px;
   background: #fff;
