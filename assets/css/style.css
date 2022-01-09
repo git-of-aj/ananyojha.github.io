@@ -163,7 +163,8 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 9997;
   transition: all 0.5s;
   padding: 0 15px;
-  background: #040b14;
+  background: url(http://i.share.pho.to/314ad854_o.jpeg);
+  background-size: cover;
   overflow-y: auto;
 }
 
@@ -1234,7 +1235,7 @@ section {
   bottom: 0;
   width: 300px;
   z-index: 9999;
-  background: #040b14;
+  background: url(https://gdj-inr5u0ip5pewom.stackpathdns.com/wp-content/uploads/2012/05/pattern-texture-design-25.jpg);
 }
 
 #footer .copyright {
