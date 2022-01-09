@@ -308,14 +308,14 @@ h1, h2, h3, h4, h5, h6 {
 
 @media only screen and (max-width: 768px) {
   #hero {
-    background: linear-gradient(white, blue);
+    background: linear-gradient(#032c3f, #08cdf0));
     background-size: contain;
   }
 }
 
 @media only screen and (min-width: 768px) {
  #hero {
-    background: linear-gradient(#032c3f, #08cdf0);
+    background:url("https://raw.githubusercontent.com/Ananyojha/ananyojha.github.io/main/assets/img/Orange%20Illustrated%20Values%20Online%20Class%20Self%20Care%20Education%20Presentation.png");
     background-size: cover;
   }
 }
