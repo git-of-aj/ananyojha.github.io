@@ -164,7 +164,6 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
   padding: 0 15px;
   background: url(http://i.share.pho.to/314ad854_o.jpeg);
-  background-size: cover;
   overflow-y: auto;
 }
 
