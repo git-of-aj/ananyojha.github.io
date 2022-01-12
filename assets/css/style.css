@@ -164,8 +164,13 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
   padding: 0 15px;
   background: url(https://raw.githubusercontent.com/Ananyojha/ananyojha.github.io/main/assets/img/Ananay_Caricature.jpeg);
+  background-size: cover;
   overflow-y: auto;
 }
+
+/* @media only screen and (max-width: 768px) {
+  
+} */
 
 #header .profile img {
   margin: 15px auto;
