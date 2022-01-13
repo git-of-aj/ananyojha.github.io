@@ -321,7 +321,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media only screen and (min-width: 768px) {
  #hero {
-    background:url("https://raw.githubusercontent.com/Ananyojha/ananyojha.github.io/main/assets/img/Website%20BG.png");
+    background:url("https://raw.githubusercontent.com/Ananyojha/spare-images/main/Website%20BG2.png");
     background-size: cover;
   }
 }
