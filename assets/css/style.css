@@ -253,6 +253,11 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   color: black;
   font-weight: bolder;
+  -webkit-text-stroke: 3px white;
+  -moz-text-stroke: 3px white;
+  -ms-text-stroke: 3px white;
+  -o-text-stroke: 3px white;
+  text-stroke: 3px white;
   padding: 12px 15px;
   margin-bottom: 8px;
   transition: 0.3s;
