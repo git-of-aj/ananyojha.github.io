@@ -1,3 +1,5 @@
+[![Build status](https://dev.azure.com/MacGoaTraining/Demo/_apis/build/status/GIthub)](https://dev.azure.com/MacGoaTraining/Demo/_build/latest?definitionId=-1)
+
 # This is my First Portfolio website.
 
 In this I used `HTML`, `CSS` and `JAVASCRIPT` 
